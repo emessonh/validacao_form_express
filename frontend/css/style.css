@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    margin: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#page-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FORM */
+
+.form-section{
+    border: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+.section-block{
+    margin-bottom: 0.5rem;
+}
+
+.date{
+    width: 3rem;
+}
+
+.title-form-section{
+    margin-left: 1rem;
+}
+
+.subscription-block{
+    display: flex;
+    flex-direction: column;
+}
+
+#section-subscription{
+    display: flex;
+    justify-content: space-around;
+}
+
+#form-block{
+    border: 1px solid black;
+    padding: 0.2rem;
+}
+
+#personal-data{
+    margin-bottom: 0.2rem;
+}
+
+#input-section-personal-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#birthday{
+    display: flex;
+}
+
+#telephone{
+    display: flex;
+}
+
+#telephone-number{
+    width: 8rem;
+}
+
+.telephone{
+    margin-right: 0.5rem;
+    width: 4rem;
+}
+
+#button-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button{
+    margin-right: 1rem;
+}
