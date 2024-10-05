@@ -19,36 +19,34 @@
                 <h3 class="title-form-section">Dados Pessoais:</h3>
                 <section id="input-section-personal-data">
                     <section class="section-block">
-                        <label for="student-name">Nome Aluno:</label>
-                        <input type="text" id="student-name">
+                        <label for="student-name">Nome Aluno*</label>
+                        <input type="text" id="student-name" name="student_name">
                     </section>
                     <section id="birthday" class="section-block">
-                        <label for="date-day">Data Nascimento:</label>
-                        <input type="text" id="date-day" class="date">/
-                        <input type="text" id="date-month" class="date">/
-                        <input type="text" id="date-year" class="date">
+                        <label for="date">Data Nascimento*</label>
+                        <input type="date" name="date" id="date">
                     </section>
                     <section class="section-block">
-                        <label for="mother-name">Nome da Mãe:</label>
-                        <input type="text" id="mother-name">
+                        <label for="mother-name">Nome da Mãe*</label>
+                        <input type="text" id="mother-name" name="mother_name">
                     </section>
                     <section class="section-block">
-                        <label for="father-name">Nome do Pai:</label>
-                        <input type="text" id="father-name">
+                        <label for="father-name">Nome do Pai*</label>
+                        <input type="text" id="father-name" name="father_name">
                     </section>
                     <section class="section-block">
                         <section id="telephone">
-                            <label for="ddd">DDD:</label>
-                            <input type="text" id="ddd" class="telephone">
-                            <label for="telephone-number">Telefone:</label>
-                            <input type="text" id="telephone-number" class="telephone">
-                            <label for="ramal">Ramal:</label>
-                            <input type="text" id="ramal" class="telephone">
+                            <label for="ddd">DDD*</label>
+                            <input type="text" id="ddd" class="telephone" name="ddd">
+                            <label for="telephone-number">Telefone*</label>
+                            <input type="text" id="telephone-number" class="telephone" name="telephone">
+                            <label for="ramal">Ramal*</label>
+                            <input type="text" id="ramal" class="telephone" name="ramal">
                         </section>
                     </section>
                     <section class="section-block">
-                        <label for="email">Email:</label>
-                        <input type="text" id="email">
+                        <label for="email">Email*</label>
+                        <input type="text" id="email" name="email">
                     </section>
                 </section>
             </section>
@@ -56,13 +54,13 @@
                 <h3 class="title-form-section">Informações da Pré-Matrícula:</h3>
                 <section id="section-subscription">
                     <section class="subscription-block">
-                        <label for="class">Serie:</label>
-                        <select name="" id="class" class="form-select">
+                        <label for="class">Serie*</label>
+                        <select name="tipo_ensino" id="class" class="form-select">
                             <option value="pre-escola">Pré-escola:</option>
                         </select>
                     </section>
                     <section>
-                        <p>Turno:</p>
+                        <p>Turno*:</p>
                         <section>
                             <input type="radio" name="turno" id="turno-manha">
                             <label for="turno-manha">Manhã</label>
@@ -73,29 +71,29 @@
                         </section>
                     </section>
                     <section>
-                        <span>Atividades Extracurriculares:</span>
+                        <span>Atividades Extracurriculares (3 atividades no máximo):</span>
                         <section>
-                            <input type="checkbox" name="" id="informatica">
+                            <input type="checkbox" name="atv_informatica" id="informatica">
                             <label for="informatica">Informática</label>
                         </section>
                         <section>
-                            <input type="checkbox" name="" id="musica">
+                            <input type="checkbox" name="atv_musica" id="musica">
                             <label for="musica">Música</label>
                         </section>
                         <section>
-                            <input type="checkbox" name="" id="balet">
+                            <input type="checkbox" name="atv_balet" id="balet">
                             <label for="balet">Balet</label>
                         </section>
                         <section>
-                            <input type="checkbox" name="" id="pintura">
+                            <input type="checkbox" name="atv_pintura" id="pintura">
                             <label for="pintura">Pintura</label>
                         </section>
                         <section>
-                            <input type="checkbox" name="" id="judo">
+                            <input type="checkbox" name="atv_judo" id="judo">
                             <label for="judo">Judô</label>
                         </section>
                         <section>
-                            <input type="checkbox" name="" id="futebol">
+                            <input type="checkbox" name="atv_futebol" id="futebol">
                             <label for="futebol">Futebol</label>
                         </section>
                     </section>
